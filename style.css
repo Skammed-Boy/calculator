@@ -1,0 +1,45 @@
+h1{
+    text-align: center;
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+.calc{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border: 2px solid black;
+    border-radius: 6px;
+    height: 400px;
+    width: 300px;
+    background-color: grey;
+}
+
+.display{
+    display: flex;
+    justify-content: end;
+    padding-top: 25px;
+    font-size: 35px;
+    margin: 15px;
+    border: 2px solid black;
+    border-radius: 5px;
+    height: 65px;
+    width: 250px;
+    background-color: white;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+button{
+    margin: 2px;
+    height: 40px;
+    width: 60px;
+    border-radius: 5px;
+}
