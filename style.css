@@ -13,23 +13,56 @@ h1{
     flex-direction: column;
     border: 2px solid black;
     border-radius: 6px;
-    height: 400px;
+    height: 360px;
     width: 300px;
-    background-color: grey;
+    word-wrap: break-word;
+    word-break: break-all;
+    background-color: rgba(10, 25, 239, 0.729);
 }
 
 .display{
     display: flex;
-    justify-content: end;
-    padding-top: 25px;
-    font-size: 35px;
+    flex-direction: column;
+    justify-content: space-evenly;
     margin: 15px;
     border: 2px solid black;
     border-radius: 5px;
-    height: 65px;
+    height: 80px;
     width: 250px;
     background-color: white;
 }
+
+.display-current{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;
+    font-size: 30px;
+}
+
+.display-previous{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding-right: 5px;
+    font-size: 18px;
+    max-height: 300px;
+}
+
+.delete{
+    width: 120px;
+    background-color: aqua;
+}
+
+.all-clear{
+    width: 130px;
+    background-color: crimson;
+}
+
+.equals-btn{
+    width: 260px;
+}
+
 
 .button{
     display: flex;
@@ -42,4 +75,6 @@ button{
     height: 40px;
     width: 60px;
     border-radius: 5px;
+    background-color:chartreuse;
+    font-weight: 700;
 }
